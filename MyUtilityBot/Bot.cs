@@ -57,7 +57,7 @@ namespace MyUtilityBot
                 }
 
                 // Проверяем, выбрано ли действие пользователем
-                if (userActions.TryGetValue(userId, out string? action))
+                if (userActions.TryGetValue(userId, out string action))
                 {
                     if (action == "sum")
                     {
